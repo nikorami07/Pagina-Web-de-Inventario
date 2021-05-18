@@ -1,0 +1,171 @@
+html{
+    background-color: #eee;
+    font-family: 'Spartan', sans-serif;
+}
+
+/*||Barra de Herramientas*/
+.login{
+    background-color: rgb(111, 76, 156);
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    position: fixed;
+}
+li a{
+    padding: 20px 80px 30px 20px;
+    display: block;
+    color: white;
+    text-align: center left;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ol{
+    font-size: 20px;
+}
+#boton{
+    background-color: rgb(111, 76, 156);
+    padding: 20px 200px 30px 20px;
+    display: block;
+    border: none;
+    text-align: center left;
+    color: white;
+    font-family: 'Spartan', sans-serif;
+    
+}
+#boton:hover{
+    background-color: rgb(85, 57, 122);
+    font-weight: bolder;
+    font-size: 20px;
+    padding: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: rgb(85, 57, 122);
+    font-weight: bolder;
+    font-size: 20px;
+    padding: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+/*||Contenedores*/
+
+#contenedores{
+    margin-left: 250px;
+    margin-top: 130px;
+}
+
+#contenedor1{
+    background-color: rgb(85, 57, 122);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: fixed;
+    color: white;
+    padding-left: 30px;
+    display: flex;justify-content: left; width: 100%;
+
+}
+.titulo{
+    padding-top: 10px;
+    text-align: left;
+}
+.us{
+    margin-left: auto;
+}
+
+#boton-usuario{
+    font-family: 'Spartan', sans-serif;
+    border: none;
+    background-color: rgb(111, 76, 156);
+    color: white;
+    padding: 30px 50px 40px 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+#boton-usuario:hover{
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: pointer;
+}
+#contenedor2{
+    margin: 60px 60px 0px 60px;
+
+}
+label{
+    color: rgb(0, 0, 0);
+    font-weight: 990;
+    padding: 30px 15px 30px 15px;
+}
+
+input[type=text]{
+    border-radius: 4px;
+    border: none;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.columna{
+    margin: 10px 10px 10px 10px;
+    padding: 30px 10px 30px 10px;
+    height: 100px;
+    border-bottom: solid 1px rgb(214, 214, 214);
+    box-shadow: 4px 20px 20px 1px rgb(214, 214, 214);
+}
+button {
+    background-color: rgb(111, 76, 156);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+    border-radius: 4px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgb(111, 76, 156);
+    font-weight: 900;
+}
+
+#contenedor3{
+    
+    margin: 60px 60px 0px 60px;
+    
+}
+
+.boton-buscar{
+    border: solid 1px black;
+}
+.caja{
+    background-color: white;
+    border-radius: 5px;
+    border: solid 1px rgb(182, 181, 181);
+    margin: 0px 60px 60px 60px;
+    width: auto;
+    height: 400px;
+    padding: 30px 30px 30px 30px;
+    color: black;
+    font-weight: bold;
+    
+}
+footer{
+    text-align: center;
+    color: blueviolet;
+}
+
+footer:hover{
+    color: blueviolet;
+    font-size: large;
+    font-weight: bold;
+}
